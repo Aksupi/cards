@@ -1,5 +1,5 @@
 <?php
- if($_POST['password'] == 'password' && $_POST['username'] == 'a1600540') {
+ if($_POST['password'] == 'password' && $_POST['username'] == 'username') {
  session_start();
  $_SESSION['username']='username';
  redirect("list.php");
